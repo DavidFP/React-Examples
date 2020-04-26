@@ -21,13 +21,13 @@ const MyMultiSelect = (props) => {
   return (
     <React.Fragment>
       
-        <h3>Multiselect with default values</h3>
+        <p>Multiselect with default values</p>
         <Multiselect data={fruits} defaultValue={defValues} />
      
-        <h3>Multiselect with disabled values</h3>
+        <p>Multiselect with disabled values</p>
         <Multiselect data={fruits} disabled={defValues} />
 
-        <h3>Multiselect with disabled and default values</h3>
+        <p>Multiselect with disabled and default values</p>
         <Multiselect data={fruits} disabled={defValues}  defaultValue={defValues}/>
      
     </React.Fragment>

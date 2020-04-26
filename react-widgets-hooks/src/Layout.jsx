@@ -1,6 +1,7 @@
 import React from "react";
 
 import Multiselect  from './Components/Widgets/MyMultiselect';
+import Popups from './Components/Widgets/MyPopups'
 
 
 const Layout = () => {
@@ -9,7 +10,7 @@ const Layout = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12">
-            <h1 className="text-center">React Examples</h1>
+            <h4 className="text-center">React Examples</h4>
           </div>
         </div>
         <div className="row">
@@ -34,11 +35,17 @@ const Layout = () => {
         </div>
 
         <div className="row">
-          <div className="col-2"></div>
-          <div className="col-8">
+          <div className="col-2">
+           <Popups/>
+          </div>
+          <div className="col-4">
+            <Multiselect />
+          </div>
+          <div className="col-4">
             <Multiselect />
           </div>
           <div className="col-2"></div>
+          
         </div>
       </div>
     </React.Fragment>
