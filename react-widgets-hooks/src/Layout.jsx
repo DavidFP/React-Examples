@@ -35,8 +35,7 @@ const Layout = () => {
 
         <div className="row">
           <div className="col-2"></div>
-          <div className="col-8 justify-content-center">
-            <h4>Multiselect component</h4>
+          <div className="col-8">
             <Multiselect />
           </div>
           <div className="col-2"></div>
