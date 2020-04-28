@@ -1,8 +1,8 @@
 import React from "react";
 
-import Multiselect  from './Components/Widgets/MyMultiselect';
-import Popups from './Components/Widgets/MyPopups'
-
+import Multiselect from "./Components/Widgets/MyMultiselect";
+import Popups from "./Components/Widgets/MyPopups";
+import ComboBox from "./Components/Widgets/MyComboBox";
 
 const Layout = () => {
   return (
@@ -36,16 +36,15 @@ const Layout = () => {
 
         <div className="row">
           <div className="col-2">
-           <Popups/>
+            <Popups />
           </div>
           <div className="col-4">
             <Multiselect />
           </div>
           <div className="col-4">
-            <Multiselect />
+            <ComboBox />
           </div>
           <div className="col-2"></div>
-          
         </div>
       </div>
     </React.Fragment>
